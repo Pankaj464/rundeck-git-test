@@ -1,0 +1,21 @@
+<joblist>
+  <job>
+    <description></description>
+    <executionEnabled>true</executionEnabled>
+    <id>c772a284-7f83-4a3f-9762-a7df31813bfc</id>
+    <loglevel>INFO</loglevel>
+    <name>TestJob</name>
+    <notification>
+      <onsuccess>
+        <email attachLog='true' recipients='pankaj.choudhary.contractor@hilton.com' subject='test Success1' />
+      </onsuccess>
+    </notification>
+    <scheduleEnabled>true</scheduleEnabled>
+    <sequence keepgoing='false' strategy='node-first'>
+      <command>
+        <exec>echo "Test"</exec>
+      </command>
+    </sequence>
+    <uuid>c772a284-7f83-4a3f-9762-a7df31813bfc</uuid>
+  </job>
+</joblist>
